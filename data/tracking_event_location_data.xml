@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<odoo noupdate="1">
+    <record id="tracking_location_ids" model="tracking.event.location">
+        <field name="name">Bodega IDS</field>
+        <field name="location_type">internal</field>
+    </record>
+    <record id="tracking_location_miami" model="tracking.event.location">
+        <field name="name">Bodega Miami</field>
+        <field name="location_type">external</field>
+    </record>
+</odoo>

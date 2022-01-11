@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<odoo noupdate="1">
+    <record id="tracking_message_package_sent" model="tracking.event.message">
+        <field name="name">Package Sent</field>
+        <field name="description">The Package was sent</field>
+    </record>
+    <record id="tracking_message_package_delivered" model="tracking.event.message">
+        <field name="name">Package Delivered</field>
+        <field name="description">The Package was delivered</field>
+    </record>
+</odoo>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_sale_order_form" model="ir.ui.view">
+        <field name="name">sale.order.form.inherit</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='other_information']" position="after">
+                <page string="Tracking" name="tracking">
+                    <group>
+                        <field name="tracking_event_ids"
+                               context="{'default_sale_id': id, 'form_view_ref' : 'tracking_order.view_id', 'tree_view_ref' : 'tracking_order.tracking_event_view_tree'}"
+                               nolabel="1"/>
+                    </group>
+                </page>
+            </xpath>
+            <xpath expr="//button[@name='action_view_invoice']" position="after">
+                <button name="action_views_tracking_event" type="object" class="oe_stat_button" icon="fa-th-list" attrs="{'invisible': [('tracking_event_count', '=', 0)]}">
+                    <field name="tracking_event_count" widget="statinfo" string="Tracking"/>
+                </button>
+            </xpath>
+        </field>
+    </record>
+</odoo>

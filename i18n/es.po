@@ -1,0 +1,630 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* tracking_order
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-19 18:14+0000\n"
+"PO-Revision-Date: 2021-08-19 18:14+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__message_needaction
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__message_needaction
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__message_needaction
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__message_needaction
+msgid "Action Needed"
+msgstr "Acción requerida"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__activity_ids
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__activity_ids
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__activity_ids
+msgid "Activities"
+msgstr "Actividades"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__activity_exception_decoration
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__activity_exception_decoration
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Decoración de Actividad  de Excepción"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__activity_state
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__activity_state
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__activity_state
+msgid "Activity State"
+msgstr "Estado de la actividad"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__activity_type_icon
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__activity_type_icon
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Ícono de tipo de actvidad"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__message_attachment_count
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__message_attachment_count
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__message_attachment_count
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__message_attachment_count
+msgid "Attachment Count"
+msgstr "Nº de archivos adjuntos"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__beggining_state
+msgid "Beggining State"
+msgstr "Estado de Inicio"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__closing_state
+msgid "Closing State"
+msgstr "Estado de Cierre"
+
+#. module: tracking_order
+#: model:ir.model.fields,help:tracking_order.field_sale_order__tracking_event_count
+msgid "Counts the tracking events related to this sale order"
+msgstr "Contabiliza los eventos de tracking relacionados con esta orden de venta"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__create_uid
+msgid "Created By"
+msgstr "Creado por"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__create_uid
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__create_uid
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__create_date
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__create_date
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__create_date
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__date_created
+msgid "Date Created"
+msgstr "Fecha de creación"
+
+#. module: tracking_order
+#: model:tracking.event.state,name:tracking_order.tracking_state_delivered
+msgid "Delivered"
+msgstr "Entregado"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: tracking_order
+#: model:ir.model.fields,help:tracking_order.field_tracking_event__message
+msgid "Description of the tracking event"
+msgstr "Descripción del evento de tracking"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_mail_message__display_name
+#: model:ir.model.fields,field_description:tracking_order.field_purchase_order__display_name
+#: model:ir.model.fields,field_description:tracking_order.field_sale_order__display_name
+#: model:ir.model.fields,field_description:tracking_order.field_stock_location__display_name
+#: model:ir.model.fields,field_description:tracking_order.field_stock_picking__display_name
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__display_name
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__display_name
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__display_name
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_stock_location__event_tracking_location_id
+msgid "Event Tracking Location"
+msgstr "Ubicación de Seguimiento de Eventos"
+
+#. module: tracking_order
+#: model:ir.model.fields.selection,name:tracking_order.selection__tracking_event_location__location_type__external
+msgid "External"
+msgstr "Externa"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__message_follower_ids
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__message_follower_ids
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__message_follower_ids
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__message_channel_ids
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__message_channel_ids
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__message_channel_ids
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canales)"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__message_partner_ids
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__message_partner_ids
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__message_partner_ids
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Contactos)"
+
+#. module: tracking_order
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_location__activity_type_icon
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_message__activity_type_icon
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_state__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Icono de Font Awesome ej. fa-tasks"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_mail_message__id
+#: model:ir.model.fields,field_description:tracking_order.field_purchase_order__id
+#: model:ir.model.fields,field_description:tracking_order.field_sale_order__id
+#: model:ir.model.fields,field_description:tracking_order.field_stock_location__id
+#: model:ir.model.fields,field_description:tracking_order.field_stock_picking__id
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__id
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__id
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__id
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__id
+msgid "ID"
+msgstr ""
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__activity_exception_icon
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__activity_exception_icon
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__activity_exception_icon
+msgid "Icon"
+msgstr "Icono"
+
+#. module: tracking_order
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_location__activity_exception_icon
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_message__activity_exception_icon
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_state__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icono para indicar una actividad de excepción."
+
+#. module: tracking_order
+#: model:ir.model.fields,help:tracking_order.field_tracking_event__reference
+msgid "Identifies the records to whom the tracking is registered"
+msgstr "Identifica el registro para el cuál se esta creando el tracking"
+
+#. module: tracking_order
+#: model:ir.model.fields,help:tracking_order.field_tracking_event__message_needaction
+#: model:ir.model.fields,help:tracking_order.field_tracking_event__message_unread
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_location__message_needaction
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_location__message_unread
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_message__message_needaction
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_message__message_unread
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_state__message_needaction
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_state__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado hay nuevos mensajes que requieren su atención."
+
+#. module: tracking_order
+#: model:ir.model.fields,help:tracking_order.field_tracking_event__message_has_error
+#: model:ir.model.fields,help:tracking_order.field_tracking_event__message_has_sms_error
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_location__message_has_error
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_location__message_has_sms_error
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_message__message_has_error
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_message__message_has_sms_error
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_state__message_has_error
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_state__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si se encuentra marcado, algunos mensajes tienen error de envío."
+
+#. module: tracking_order
+#: model:tracking.event.state,name:tracking_order.tracking_state_in_transit
+msgid "In transit"
+msgstr "En tránsito"
+
+#. module: tracking_order
+#: model:ir.model.fields.selection,name:tracking_order.selection__tracking_event_location__location_type__internal
+msgid "Internal"
+msgstr "Interna"
+
+#. module: tracking_order
+#: model:ir.model,name:tracking_order.model_stock_location
+msgid "Inventory Locations"
+msgstr "Ubicaciones de inventario"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__message_is_follower
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__message_is_follower
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__message_is_follower
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__message_is_follower
+msgid "Is Follower"
+msgstr "Es un seguidor"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_mail_message____last_update
+#: model:ir.model.fields,field_description:tracking_order.field_purchase_order____last_update
+#: model:ir.model.fields,field_description:tracking_order.field_sale_order____last_update
+#: model:ir.model.fields,field_description:tracking_order.field_stock_location____last_update
+#: model:ir.model.fields,field_description:tracking_order.field_stock_picking____last_update
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event____last_update
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location____last_update
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message____last_update
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__write_uid
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__write_uid
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__write_uid
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__write_date
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__write_date
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__write_date
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__location_id
+msgid "Location"
+msgstr "Ubicación"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__location_type
+msgid "Location Type"
+msgstr "Tipo de Ubicación"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__message_main_attachment_id
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__message_main_attachment_id
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__message_main_attachment_id
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Adjuntos principales"
+
+#. module: tracking_order
+#: model:ir.model.fields.selection,name:tracking_order.selection__tracking_event__source__manual
+msgid "Manual"
+msgstr ""
+
+#. module: tracking_order
+#: model:ir.model,name:tracking_order.model_mail_message
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__message
+msgid "Message"
+msgstr "Mensaje"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__message_has_error
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__message_has_error
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__message_has_error
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de Envío de Mensaje"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__message_type_id
+msgid "Message Type"
+msgstr "Tipo de Mensaje"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__message_ids
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__message_ids
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__message_ids
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__my_activity_date_deadline
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__my_activity_date_deadline
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Mi fecha límite de actividad"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__name
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__name
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__activity_date_deadline
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__activity_date_deadline
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Fecha límite de siguiente actividad"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__activity_summary
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__activity_summary
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resumen de la siguiente actividad"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__activity_type_id
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__activity_type_id
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__activity_type_id
+msgid "Next Activity Type"
+msgstr "Siguiente tipo de actividad"
+
+#. module: tracking_order
+#: model:tracking.event.state,name:tracking_order.tracking_state_not_shipped
+msgid "Not Shipped"
+msgstr "No Enviado"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__message_needaction_counter
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__message_needaction_counter
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__message_needaction_counter
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__message_has_error_counter
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__message_has_error_counter
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__message_has_error_counter
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__message_has_error_counter
+msgid "Number of errors"
+msgstr "Número de errores"
+
+#. module: tracking_order
+#: model:ir.model.fields,help:tracking_order.field_tracking_event__message_needaction_counter
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_location__message_needaction_counter
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_message__message_needaction_counter
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_state__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensajes que requieren una acción"
+
+#. module: tracking_order
+#: model:ir.model.fields,help:tracking_order.field_tracking_event__message_has_error_counter
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_location__message_has_error_counter
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_message__message_has_error_counter
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_state__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de envío"
+
+#. module: tracking_order
+#: model:ir.model.fields,help:tracking_order.field_tracking_event__message_unread_counter
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_location__message_unread_counter
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_message__message_unread_counter
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_state__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensajes no leidos"
+
+#. module: tracking_order
+#: model:ir.model.fields.selection,name:tracking_order.selection__tracking_event__source__internal
+msgid "Odoo Internal"
+msgstr ""
+
+#. module: tracking_order
+#: model:ir.model.fields,help:tracking_order.field_tracking_event__source
+msgid "Origin from where the action was performed"
+msgstr "Origen desde el cual la acción fue echa"
+
+#. module: tracking_order
+#: model:tracking.event.message,name:tracking_order.tracking_message_package_delivered
+msgid "Package Delivered"
+msgstr "Paquete Entregado"
+
+#. module: tracking_order
+#: model:tracking.event.message,name:tracking_order.tracking_message_package_sent
+msgid "Package Sent"
+msgstr "Paquete Enviado"
+
+#. module: tracking_order
+#: model:ir.model,name:tracking_order.model_purchase_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__purchase_id
+msgid "Purchase Order"
+msgstr "Orden de compra"
+
+#. module: tracking_order
+#: model:tracking.event.state,name:tracking_order.tracking_state_purchased
+msgid "Purchased"
+msgstr "Comprado"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__reference
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__activity_user_id
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__activity_user_id
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__activity_user_id
+msgid "Responsible User"
+msgstr "Usuario responsable"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__message_has_sms_error
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__message_has_sms_error
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__message_has_sms_error
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Error de entrega del SMS"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__sale_id
+msgid "Sale Order"
+msgstr "Pedido de venta"
+
+#. module: tracking_order
+#: model:ir.model,name:tracking_order.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__source
+msgid "Source"
+msgstr "Origen"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__state_id
+msgid "State"
+msgstr "Estado"
+
+#. module: tracking_order
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_location__activity_state
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_message__activity_state
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_state__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Estado basado en actividades\n"
+"Vencida: la fecha tope ya ha pasado\n"
+"Hoy: La fecha tope es hoy\n"
+"Planificada: futuras actividades."
+
+#. module: tracking_order
+#: code:addons/tracking_order/models/tracking_event_state.py:0
+#, python-format
+msgid ""
+"The state can't be a begginig state and a closing state at the same time."
+msgstr ""
+"El estado no puede ser de inicio y de cierre al mismo tiempo."
+
+#. module: tracking_order
+#: code:addons/tracking_order/models/tracking_event_state.py:0
+#, python-format
+msgid "There's already one beggining state. Reference : %s"
+msgstr "Ya hay un estado inicial. Referencia : %s"
+
+#. module: tracking_order
+#: code:addons/tracking_order/models/tracking_event_state.py:0
+#, python-format
+msgid "There's already one closing state. Reference : %s"
+msgstr "Ya hay un estado de cierre. Referencia : %s"
+
+#. module: tracking_order
+#: model_terms:ir.ui.view,arch_db:tracking_order.purchase_order_view_form
+#: model_terms:ir.ui.view,arch_db:tracking_order.stock_picking_view_form
+#: model_terms:ir.ui.view,arch_db:tracking_order.view_sale_order_form
+msgid "Tracking"
+msgstr ""
+
+#. module: tracking_order
+#: model:ir.model,name:tracking_order.model_tracking_event
+msgid "Tracking Event"
+msgstr "Evento de tracking"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_sale_order__tracking_event_count
+msgid "Tracking Event Count"
+msgstr "Conteo de evento de tracking"
+
+#. module: tracking_order
+#: model:ir.model,name:tracking_order.model_tracking_event_location
+#: model_terms:ir.ui.view,arch_db:tracking_order.tracking_event_location_view_form
+#: model_terms:ir.ui.view,arch_db:tracking_order.tracking_event_message_view_form
+msgid "Tracking Event Location"
+msgstr "Ubicación de Evento de Seguimiento"
+
+#. module: tracking_order
+#: model:ir.actions.act_window,name:tracking_order.tracking_event_location_action
+#: model:ir.ui.menu,name:tracking_order.menu_tracking_event_location
+msgid "Tracking Event Locations"
+msgstr "Ubicaciones de Evento de Seguimiento"
+
+#. module: tracking_order
+#: model:ir.actions.act_window,name:tracking_order.tracking_event_message_action
+#: model:ir.model,name:tracking_order.model_tracking_event_message
+#: model:ir.ui.menu,name:tracking_order.menu_tracking_event_message
+msgid "Tracking Event Message"
+msgstr "Mensaje de Evento de Seguimiento"
+
+#. module: tracking_order
+#: model:ir.model,name:tracking_order.model_tracking_event_state
+#: model_terms:ir.ui.view,arch_db:tracking_order.tracking_event_state_view_form
+msgid "Tracking Event State"
+msgstr "Estado de Evento de Seguimiento"
+
+#. module: tracking_order
+#: model:ir.actions.act_window,name:tracking_order.tracking_event_state_action
+#: model:ir.ui.menu,name:tracking_order.menu_tracking_event_state
+msgid "Tracking Event States"
+msgstr "Estados de Evento de Seguimiento"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_purchase_order__tracking_event_ids
+#: model:ir.model.fields,field_description:tracking_order.field_sale_order__tracking_event_ids
+#: model:ir.model.fields,field_description:tracking_order.field_stock_picking__tracking_event_ids
+#: model:ir.ui.menu,name:tracking_order.menu_sales_tracking_events
+msgid "Tracking Events"
+msgstr "Eventos de tracking"
+
+#. module: tracking_order
+#: model:res.groups,name:tracking_order.tracking_order_manager
+msgid "Tracking Order Manager"
+msgstr "Administrador de Seguimiento de Órdenes"
+
+#. module: tracking_order
+#: code:addons/tracking_order/models/sale_order.py:0
+#, python-format
+msgid "Tracking events related to %s"
+msgstr "Eventos de tracking relacionados a %s"
+
+#. module: tracking_order
+#: model:ir.model,name:tracking_order.model_stock_picking
+msgid "Transfer"
+msgstr "Albarán"
+
+#. module: tracking_order
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_location__activity_exception_decoration
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_message__activity_exception_decoration
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_state__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Tipo de actividad de excepción registrada."
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__message_unread
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__message_unread
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__message_unread
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__message_unread
+msgid "Unread Messages"
+msgstr "Número de mensajes no leidos"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__message_unread_counter
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__message_unread_counter
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__message_unread_counter
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Nº de mensajes sin leer"
+
+#. module: tracking_order
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event__website_message_ids
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_location__website_message_ids
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_message__website_message_ids
+#: model:ir.model.fields,field_description:tracking_order.field_tracking_event_state__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: tracking_order
+#: model:ir.model.fields,help:tracking_order.field_tracking_event__website_message_ids
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_location__website_message_ids
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_message__website_message_ids
+#: model:ir.model.fields,help:tracking_order.field_tracking_event_state__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicaciones del sitio web"

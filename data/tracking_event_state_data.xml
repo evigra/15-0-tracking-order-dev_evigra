@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<odoo noupdate="1">
+    <record id="tracking_state_not_shipped" model="tracking.event.state">
+        <field name="name">Not Shipped</field>
+        <field name="beggining_state" eval="True"/>
+    </record>
+    <record id="tracking_state_purchased" model="tracking.event.state">
+        <field name="name">Purchased</field>
+    </record>
+    <record id="tracking_state_in_transit" model="tracking.event.state">
+        <field name="name">In transit</field>
+    </record>
+    <record id="tracking_state_delivered" model="tracking.event.state">
+        <field name="name">Delivered</field>
+        <field name="closing_state" eval="True"/>
+    </record>
+</odoo>
